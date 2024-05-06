@@ -21,6 +21,11 @@ for(let key in student){
     console.log(key,": ", student[key]);
 }
 
+//Template literals
+
+let name = `This is Monmoy And Age is ${18} years old`;
+console.log(name);
+
 //escape characters like "\n" counts as only one character
 
 let s = "Monmoy\nAlam";
